@@ -1,0 +1,39 @@
+// LOCALHOST
+### Get all users
+GET http://localhost:3000/users 
+
+
+### Get user by id
+GET http://localhost:3000/users/65ac3f312309396c816cef41
+
+### Create user
+POST http://localhost:3000/users HTTP/1.1
+content-type: application/json
+
+{
+    "firstName": "Jake",
+    "lastName": "Fonseca",
+    "email": "jake@gmail.com",
+    "favoriteColor": "Green",
+    "birthday": "04/28/2024"
+}
+
+
+### Put user
+PUT http://localhost:3000/users/65ac3f542309396c816cef42 HTTP/1.1
+content-type: application/json
+
+{
+    "firstName": "DanielaTesting",
+    "lastName": "Fonseca",
+    "email": "Danielatest@gmail.com",
+    "favoriteColor": "Yellow",
+    "birthday": "11/22/1983"
+}
+
+### DELETE user
+DELETE http://localhost:3000/users/65ac3f172309396c816cef40 HTTP/1.1
+
+
+
+
