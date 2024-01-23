@@ -40,8 +40,7 @@ const getSingle = async (req, res) => {
 };
 
 
-const createUser = async (req, res) => {+
-    console.log('testing')
+const createUser = async (req, res) => {
     const user = {
         firstName: req.body.firstName,
         lastName: req.body.lastName,
