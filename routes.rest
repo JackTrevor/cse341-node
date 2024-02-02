@@ -11,11 +11,11 @@ POST http://localhost:3000/users HTTP/1.1
 content-type: application/json
 
 {
-    "firstName": "JakeTesting",
+    "firstName": "Jennifertesting",
     "lastName": "Fonseca",
-    "email": "jake@gmail.com",
-    "favoriteColor": "Green",
-    "birthday": "04/28/2024"
+    "email": "Jenniifertest@gmail.com",
+    "favoriteColor": "Pink",
+    "birthday": "11/22/1983"
 }
 
 
@@ -24,15 +24,15 @@ PUT http://localhost:3000/users/65ac3f542309396c816cef42 HTTP/1.1
 content-type: application/json
 
 {
-    "firstName": "DanielaTesting",
+    "firstName": "Daniela",
     "lastName": "Fonseca",
     "email": "Danielatest@gmail.com",
-    "favoriteColor": "Yellow",
+    "favoriteColor": "Purple",
     "birthday": "11/22/1983"
 }
 
 ### DELETE user
-DELETE http://localhost:3000/users/65ac3f172309396c816cef40 HTTP/1.1
+DELETE http://localhost:3000/users/65b8fb89252157adc28371cf HTTP/1.1
 
 
 
